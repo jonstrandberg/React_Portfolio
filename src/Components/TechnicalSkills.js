@@ -8,7 +8,7 @@ const TechnicalSkills = () => {
         <div>
         <h4>Technical Skills</h4>
         <div className="grid-technical-skills">
-        <img className='JavaScript' src={'src/Unofficial_JavaScript_logo_2.svg.png'} alt='JavaScript'/> 
+        <img className='JavaScript' src={'./images/JavaScript.png'} alt='JavaScript'/> 
         </div>
         <div className="grid-technical-skills">
         <img className='Python' src={'src/Unofficial_JavaScript_logo_2.svg.png'} alt='JavaScript'/> 

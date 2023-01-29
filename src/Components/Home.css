@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+
+
+.Home{
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(31, 210, 210);
+}
+
+html {
+    background: url('./images/BackgroundImage.png'); 
+    height: 1800px   
+}
+
+
+img{
+    position: absolute
+}
+
+style {
+    position: relative;
+    margin-top: 200px;
+}
+

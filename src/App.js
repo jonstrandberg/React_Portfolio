@@ -7,17 +7,21 @@ import Projects from "./Components/Projects";
 import NavBar from "./Components/NavBar";
 
 
+
 function App() {
 
   return (
     <>
       <Router>
+        <header>
         <NavBar />
+        </header>
         <Routes>
           <Route>
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About/>}/>
-            <Route path="/Technical Skills" element={<Projects/>} />
+            <Route path="/Technical Skills" element={<TechnicalSkills/>}/>
+            <Route path="/Projects" element={<Projects/>} />
           </Route>
         </Routes>
       </Router>
